@@ -29,11 +29,13 @@ TransferMoney Workflow2 = new CheckPassword(new CheckBalance(new IsUserActive(ne
 TransferMoney Workflow3 = new CheckPassword(new CheckBalance(new TransferFinal(null)));
 
 
-Workflow1.Execute(new RequestContext()
+var result =  Workflow1.Execute(new RequestContext()
 {
     From = from,
     To = to,
     Password = "1234",
     Value = 150
 });
+Console.WriteLine(result.Message);
+
 
