@@ -4,7 +4,7 @@
 
 //Creating single Chains of same type and using them as chains of a workflow
 // and make no problem on workflow with adding any single Chain to worflow
-// or Change a priority of chains.
+// or Change  priority of chains.
 
 
 
