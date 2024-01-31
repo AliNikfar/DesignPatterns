@@ -2,6 +2,9 @@
 using Facade.ExternalServices;
 
 
+//Short Description About Facade:
+//Move All Methods To A Method that aggregate all the methods 
+
 /// Without Design Patterns 
 var zoneFinder = new ZoneFinder();
 var zone = zoneFinder.GetZone("65468484");

@@ -2,6 +2,10 @@
 //using Decorator DesignPattern
 using Decorator;
 
+
+//Short Description About Decorator:
+//Add New Act to a Object  Without make Any Problem for The functiality of the current actions
+
 LargeIceCreame LargeIceCreame1 = new LargeIceCreame();
 Console.WriteLine(LargeIceCreame1.GetPrice() + " " + LargeIceCreame1.GetName());
 

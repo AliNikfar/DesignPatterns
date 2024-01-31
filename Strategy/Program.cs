@@ -1,5 +1,8 @@
 ﻿using Strategy;
 
+//Short Description About Decorator:
+//using Multi Conditions for a Object Without using "If" or "Switch" and make easy to defenitioning new type for conditions 
+
 // Normal implement0
 Customer customer = new Customer();
 customer.FirstName = "ali";
