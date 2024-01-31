@@ -39,3 +39,11 @@ var result =  Workflow1.Execute(new RequestContext()
 Console.WriteLine(result.Message);
 
 
+var result2 = Workflow2.Execute(new RequestContext()
+{
+    From = from,
+    To = to,
+    Password = "1234",
+    Value = 15000
+});
+Console.WriteLine(result2.Message);
