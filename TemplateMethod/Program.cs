@@ -6,4 +6,4 @@
 
 PizzaCooker vegetablePizza = new Vegetable();
 PizzaCooker PepperoniePizza = new Pepperonie();
-Console.WriteLine("asdasd");
+Console.WriteLine("Template Method");
