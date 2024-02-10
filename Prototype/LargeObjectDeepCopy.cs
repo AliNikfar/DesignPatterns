@@ -7,7 +7,7 @@ namespace Prototype
         public int count { get; set; }
     }
 
-    // using serialize and Deserialize to Deep Copy
+ 
     public class LargeObjectDeepCopy:IClonable<LargeObjectDeepCopy>
     {
         public int Count { get; set; }
