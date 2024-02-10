@@ -23,7 +23,6 @@ var newInstance3 = largeObject.Clone();
 LargeObjectDeepCopy largeObject1 = new LargeObjectDeepCopy();
  
 var newInstance5 = largeObject1.Clone();
-newInstance5.Count();
 var newInstance6 = largeObject1.Clone();
 var newInstance7 = largeObject1.Clone();
 var newInstance8 = largeObject1.Clone();
